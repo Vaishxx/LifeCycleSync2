@@ -143,7 +143,7 @@ curl -X POST http://127.0.0.1:5000/predict \
 - Replace `<host>` with the actual server host (e.g., `127.0.0.1` for local testing).
 - Ensure the model and preprocessor files (`dietary_risk_ann_model.h5` and `preprocessor.pkl`) are correctly loaded and accessible by the Flask app.
 
-For further assistance, please contact the development team.
+
 
 
 
