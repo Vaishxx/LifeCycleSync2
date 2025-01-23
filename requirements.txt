@@ -6,3 +6,4 @@ tensorflow
 keras
 tensorflow-hub
 tensorflow-datasets
+gunicorn
