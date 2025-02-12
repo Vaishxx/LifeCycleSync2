@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS  # Import CORS
 from model_predict import predict_genetic_disorder  # Ensure this imports the function with on-demand model loading
 
-app = Flask(name)
+app = Flask(__name__)  # Fix this line
 CORS(app, 
      origins="",
      allow_headers=[""],
